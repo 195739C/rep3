@@ -56,36 +56,76 @@ public class Enemy {
         }
     }
     
+    /**
+     * フィールド変数nameにアクセスすgetterメソッド
+     * @return enemyの名前
+     */
+    
     public String getName() {
          return this.name;
      }
 
-     public void setName(String _name) {
-         this.name = _name;
+    /**
+     * フィールド変数nameに値を代入するsetterメソッド
+     * @param name  enemyの名前
+     */
+    
+     public void setName(String name) {
+         this.name = name;
      }
+    
+    /**
+     * フィールド変数hitPointにアクセスするgetterメソッド
+     * @return　enemyの現在のHP
+     */
 
      public int getHitPoint() {
          return this.hitPoint;
      }
+    
+    /**
+     * フィールド変数hitPointに値を代入するsetterメソッド
+     * @param hitPoint　enemyのHP
+     */
 
-     public void setHitPoint(int _hitPoint) {
-         this.hitPoint = _hitPoint;
+     public void setHitPoint(int hitPoint) {
+         this.hitPoint = hitPoint;
      }
 
+    /**
+     * フィールド変数attackにアクセスするgetterメソッド
+     * @return　enemyの攻撃力
+     */
+    
      public int getAttack() {
          return this.attack;
      }
+    
+    /**
+     * フィールド変数(attack)に値を代入するsetterメソッド
+     * @param attack　enemyの攻撃力
+     */
 
-     public void setAttack(int _attack) {
-         this.attack = _attack;
+     public void setAttack(int attack) {
+         this.attack = attack;
      }
 
+    /**
+     * フィールド変数deadにアクセスするgetterメソッド
+     * @return　enemyの生死の状態
+     */
+    
      public boolean getDead() {
          return this.dead;
      }
 
-     public void setDead(boolean _dead) {
-         this.dead = _dead;
+    /**
+     * フィールド変数(dead)に値を代入するsetterメソッド
+     * @param dead enemyの生死の状態
+     */
+    
+     public void setDead(boolean dead) {
+         this.dead = dead;
      }
 
 }
